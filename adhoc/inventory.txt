@@ -7,12 +7,13 @@
 [dbservers]
 10.0.1.46
 
-[prodservers]
+[myservers]
 10.0.1.45
+10.0.1.46
+
+[prodservers]
+10.0.1.[101:110]
 
 [usaservers]
-10.0.1.46
+10.0.1.[1:150]
 
-[serversgroup]
-10.0.1.45
-10.0.1.46
