@@ -1,0 +1,8 @@
+---
+- name: creating a file and copying
+  hosts: allservers
+  tasks:
+   - name: copying content to dest
+     copy: 
+      dest: /etc/sudoers.d/a1pass
+      content: "a1 ALL=(ALL) NOPASSWD: ALL"   
