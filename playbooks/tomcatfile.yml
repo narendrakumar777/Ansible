@@ -7,7 +7,7 @@
         name: openjdk-11-jre-headless
         state: present
         update_cache: yes
-    - name: creating Tomcat server
+    - name: creating Tomcat user
       become: yes
       user: 
         name: tomcat
